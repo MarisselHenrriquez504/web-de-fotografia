@@ -1,0 +1,107 @@
+body {
+		font-size: 87.5%;
+		font-family: 'Dancing Script';
+		line-height: 1.429;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+		color:#5b7989;
+	}
+	
+
+/* Listas */
+ul {
+	list-style: outside disc;
+	margin: 1em 0 1.5em 1.5em;
+}
+
+
+/***** Estructura General *****/
+.body {clear: both; margin: 0 auto; width: 800px;}
+img.right figure.right {float: right; margin: 0 0 2em 2em;}
+img.left, figure.left {float: right; margin: 0 0 2em 2em;}
+
+/*
+	Encabezado
+*****************/
+#banner {
+	margin: 0 auto;
+	padding: 2.5em 0 0 0;
+}
+
+	/* Banner */
+	#banner h1 {font-size: 3.571em; line-height: .6;}
+	#banner h1 a:link, #banner h1 a:visited {
+		display: block;
+		font-weight: bold;
+		margin: 0 0 .6em .2em;
+		text-decoration: none;
+		width: 465px;
+		color: #5b7989;
+	}
+	#banner h1 a:hover, #banner h1 a:active {
+    text-shadow: 2px #02010a;
+	}
+
+	#banner h1 strong {font-size: 0.36em; font-weight: normal; color:#5b7989.}
+
+	/* Nav Principal*/
+	#banner nav {
+		background:#FC6;
+		font-size: 1.143em;
+		height: 40px;
+		line-height: 30px;
+		margin: 0 auto 2em auto;
+		padding: 0;
+		text-align: center;
+		width: 800px;
+		
+	}
+
+	#banner nav ul {list-style: none; margin: 0 auto; width: 800px;}
+	#banner nav li {float: left; display: inline; margin: 0;}
+
+	#banner nav a:link, #banner nav a:visited {
+		background:#5b7989
+		display: inline-block;
+		height: 30px;
+		padding: 5px 1.5em;
+		text-decoration: none;
+		color:#5b7989;
+	}
+	#banner nav a:hover, #banner nav a:active{
+		background: hsla(200,60%,50%,0.65); <!--transparencia en el navegador-->
+		text-shadow: none !important; 
+		}
+	#banner nav .active a:link, #banner nav .active a:visited {
+		text-shadow: none !important;
+		background:#090;
+		color:#FFF;
+	}
+
+
+/*
+	Cuerpo de la página <body>
+*****************/
+#content {
+	margin-bottom: 2em;
+	overflow: hidden;
+	padding: 20px 20px;
+	width: 760px;
+	
+}
+
+.imagen1 {
+  color: #d5c75f;
+  background-color: #003476;
+	width: 100%;
+}
+
+.imagen2 {
+  color: #d5c75f;
+  background-color: #003476;
+	width: 100%;
+
+}
+
+
